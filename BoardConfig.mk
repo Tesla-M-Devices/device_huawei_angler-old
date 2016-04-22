@@ -30,6 +30,13 @@ TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 
 ENABLE_CPUSETS := true
 
+# Optimizations
+STRICT_ALIASING := true
+CLANG_O3 := true
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := true
+USE_PIPE := true
+
 # Inline kernel building
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
