@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "saberCore/saberCore64",
     "target_path": "kernel/huawei/angler",
-    "branch": "saberTest-p-uber"
+    "branch": "saberTest-GZR"
   },
   {
    "remote": "github",
