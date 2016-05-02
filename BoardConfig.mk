@@ -31,10 +31,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 ENABLE_CPUSETS := true
 
 # Optimizations
-STRICT_ALIASING := true
+STRICT_ALIASING := false
 CLANG_O3 := true
 ENABLE_GCCONLY := true
-GRAPHITE_OPTS := true
+GRAPHITE_OPTS := false
 USE_PIPE := true
 
 # Inline kernel building
