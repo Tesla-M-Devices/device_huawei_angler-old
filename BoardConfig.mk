@@ -38,10 +38,11 @@ GRAPHITE_OPTS := true
 USE_PIPE := true
 
 # Inline kernel building
-TARGET_GCC_VERSION_ARM64 := 7.0-kernel
-TARGET_KERNEL_SOURCE := kernel/huawei/angler
-TARGET_KERNEL_CONFIG := saber_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_KERNEL_CONFIG := saber_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/angler
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-6.0-kernel/bin
 
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
