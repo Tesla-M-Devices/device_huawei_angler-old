@@ -9,6 +9,6 @@
    "remote": "github",
     "repository": "PureNexusProject/proprietary_vendor_huawei",
     "target_path": "vendor/huawei",
-    "branch": "mm"
+    "branch": "mm2"
   }
 ]
